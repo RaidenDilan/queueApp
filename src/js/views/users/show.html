@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="usersShowPage">
+      <h1>{{ usersShow.user.username }}</h1>
+      <h3>Fullname: {{usersShow.user.firstname}} {{usersShow.user.lastname}}</h3>
+      <h3>Email Address: {{usersShow.user.email}}</h3>
+      <button ui-sref="usersEdit({ id: usersShow.user.id })" class="btn btn-primary btn-block">Edit</button>
+    </div>
+  </div>
+</div>

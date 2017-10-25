@@ -1,0 +1,35 @@
+<section>
+  <div>
+    <h2>Edit Profile</h2>
+    <div>
+        <form name="usersEdit.usersEditForm" ng-submit="usersEdit.update()">
+          <div>
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname" ng-model="usersEdit.user.firstname">
+          </div>
+
+          <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname" ng-model="usersEdit.user.lastname">
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" ng-model="usersEdit.user.email">
+          </div>
+
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" ng-model="usersEdit.user.password">
+          </div>
+
+          <div>
+            <label for="passwordConfirmation">Password Confirmation</label>
+            <input type="password" name="passwordConfirmation" id="passwordConfirmation" ng-model="usersEdit.user.passwordConfirmation">
+          </div>
+
+          <button class="button">Update</button>
+        </form>
+    </div>
+  </div>
+</section>
