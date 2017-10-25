@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .controller('UsersShowCtrl', UsersShowCtrl)
   .controller('UsersEditCtrl', UsersEditCtrl)
   .controller('UsersIndexCtrl', UsersIndexCtrl);

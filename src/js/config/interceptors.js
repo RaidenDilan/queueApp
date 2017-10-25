@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .config(Interceptors);
 
 Interceptors.$inject = ['$httpProvider'];

@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .config(Router);
 
 Router.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];

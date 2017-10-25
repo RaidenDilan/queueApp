@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .factory('User', User);
 
 User.$inject = ['$resource'];

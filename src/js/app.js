@@ -1,2 +1,2 @@
 angular
-  .module('myApp', ['ui.router', 'ngResource', 'satellizer', 'ngMessages', 'ui.bootstrap', 'ngAnimate']);
+  .module('queueApp', ['ui.router', 'ngResource', 'satellizer', 'ngMessages', 'ui.bootstrap', 'ngAnimate']);

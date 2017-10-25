@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .controller('RegisterCtrl', RegisterCtrl)
   .controller('LoginCtrl', LoginCtrl);
 

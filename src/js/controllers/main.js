@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .controller('MainCtrl', MainCtrl);
 
 MainCtrl.$inject = ['$rootScope', '$state', '$auth'];

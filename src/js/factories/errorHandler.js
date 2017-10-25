@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .factory('ErrorHandler', ErrorHandler);
 
 ErrorHandler.$inject = ['$rootScope'];

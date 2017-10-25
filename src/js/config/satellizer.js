@@ -1,5 +1,5 @@
 angular
-  .module('myApp')
+  .module('queueApp')
   .config(Auth);
 
 Auth.$inject = ['$authProvider'];
