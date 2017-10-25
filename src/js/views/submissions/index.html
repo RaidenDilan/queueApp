@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="new">
+      <div class="customer">
+        <h1>Queue</h1>
+      </div>
+      <p class="list">List of all the customers being queued</p>
+      <ul id="queueTitles">
+        <li>#</li>
+        <li>Type</li>
+        <li>Name</li>
+        <li>Service</li>
+        <li>Queued at</li>
+      </ul>
+      <ul id="inTheQueue">
+        <li ng-repeat="submission in submissionsIndex.all">
+          <a ui-sref="submissionsShow({ id: submission.id })"></a>
+          <small>{{ submission.category }}</small>
+          <small>{{ submission.title }} {{ submission.firstname }} {{ submission.lastname }}</small>
+          <small>{{ submission.service }}</small>
+          <small>{{ submission.createdAt | date:'HH:mm'}}</small>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
