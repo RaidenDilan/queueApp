@@ -7,6 +7,11 @@ function Router($stateProvider, $urlRouterProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
 
   $stateProvider
+    .state('submissionsIndex', {
+      url: '/submissions',
+      templateUrl: 'js/views/submissions/index.html',
+      controller: 'SubmissionsIndexCtrl as submissionsIndex'
+    })
     .state('usersShow', {
       url: '/users/:id',
       templateUrl: 'js/views/users/show.html',
