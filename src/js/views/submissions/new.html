@@ -49,25 +49,25 @@
 
         <div class="userForm">
           <label for="title">Title</label>
-          <select name="title" id="title" ng-model="submissionsNew.submission.title" class="form-control">
-            <option selected="selected" disabled>Choose a title</option>
-            <option value="Mr">Mr.</option>
-            <option value="Ms">Ms.</option>
-            <option value="Mrs">Mrs.</option>
-            <option value="Miss">Miss.</option>
-            <option value="Dr">Dr</option>
-            <option value="Lady">Lady</option>
-            <option value="Lord">Lord</option>
-          </select>
+            <select name="title" id="title" ng-model="submissionsNew.submission.title" class="form-control">
+              <option selected="selected" disabled>Choose a title</option>
+              <option value="Mr">Mr.</option>
+              <option value="Mrs">Mrs.</option>
+              <option value="Ms">Ms.</option>
+              <option value="Miss">Miss.</option>
+              <option value="Dr">Dr</option>
+              <option value="Lady">Lady</option>
+              <option value="Lord">Lord</option>
+            </select>
         </div>
 
         <div>
           <label for="firstname">First Name</label>
-          <input type="text" name="firstname" id="firstname" ng-model="submissionsNew.submission.firstname" class="form-control">
+          <input type="text" name="firstname" id="firstname" placeholder="First Name" ng-model="submissionsNew.submission.firstname" class="form-control">
         </div>
         <div>
           <label for="lastname">Last Name</label>
-          <input type="text" name="lastname" id="lastname" ng-model="submissionsNew.submission.lastname" class="form-control">
+          <input type="text" name="lastname" id="lastname" placeholder="Last Name" ng-model="submissionsNew.submission.lastname" class="form-control">
         </div>
         <br>
         <button class="btn btn-primary btn-block">Submit</button>
