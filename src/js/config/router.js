@@ -12,6 +12,11 @@ function Router($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl: 'js/views/submissions/index.html',
       controller: 'SubmissionsIndexCtrl as submissionsIndex'
     })
+    .state('submissionsNew', {
+      url: '/submissions/new',
+      templateUrl: 'js/views/submissions/new.html',
+      controller: 'SubmissionsNewCtrl as submissionsNew'
+    })
     .state('usersShow', {
       url: '/users/:id',
       templateUrl: 'js/views/users/show.html',
